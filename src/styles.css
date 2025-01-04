@@ -1,0 +1,28 @@
+.text-comparison-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .text-box {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+    height: 300px;
+  }
+  
+  .text-box .word {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .text-box .highlight {
+    background-color: yellow;
+  }
+  .highlight {
+    background-color: yellow;
+  }
+  
