@@ -1,0 +1,25 @@
+.text-comparison-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-box {
+  width: 45%;
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.word, .sentence {
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+h2 {
+  text-align: center;
+}
